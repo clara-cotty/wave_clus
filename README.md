@@ -12,7 +12,7 @@ times_C{number_channel}.mat and screenshot of wave_clus' spike sorting.
 times_C{number_channel}.mat is a matrix where rows are the number of points and each point is defined by [cluster,times].
 
 Note on certain parameters :
-  - par.detection = 'neg' It might be a good idea not to choose 'both' this as it tends to divide into irrelevant clusters.
+  - par.detection = 'neg' It might be a good idea not to choose 'both' because it tends to divide into irrelevant clusters.
   - par.stdmin =  3.5  (the optimum value may vary between 3.5 and 4.5 depending on the signal)
   - par.min_clus = 1000 (to avoid the creation of clusters with very little spike in it)
 
