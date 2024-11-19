@@ -20,6 +20,8 @@ Temperature serves as an indicator of the quality of the clusters found. The gra
 
 Warning : even if cluster 0 has only very few spikes it will appears in the file times_C{number_channel}.mat
 
+Run 4pipeline_create_npy.py to create data, features, spike_times and spike_clusters
+
 
 
 
